@@ -91,11 +91,7 @@ public with sharing class VariablesDataTypesOperators {
      * @return True if the number is even, False otherwise.
      */
     public static Boolean isEven(Integer num) {
-        if (math.mod(num, 2) == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return Math.mod(num,2) ==0;
     }
 
     /**
